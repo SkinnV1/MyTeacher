@@ -21,9 +21,10 @@
             <p><strog class="teacher-name">João da Silva</strog></p>
             <p class="teacher-price">R$ 100,00 por hora</p>
             <p class="teacher-desc">professor de inglês, já morou nos EUA e Ingaterra</p>
-            <form class="teacher-contact">
-                <input type="number" placeholder="Quantidade de horas" class="teacher-contact-hours">
-                <button type="submit" class="teacher-contact-button">Calcular valor total</button>
+            <form class="teacher-contract">
+                <input name="price" type="hidden" value="100">
+                <input required min="1" max="5" name="hours" type="number" placeholder="Quantidade de horas" class="teacher-contract-hours">
+                <button type="submit" class="teacher-contract-button">Calcular valor total</button>
             </form>
         </section>
         <section class="teacher-container">
@@ -31,11 +32,13 @@
             <p><strog class="teacher-name">Maria Luiza</strog></p>
             <p class="teacher-price">R$ 120,00 por hora</p>
             <p class="teacher-desc">professora de inglês, já morou nos EUA e Ingaterra</p>
-            <form class="teacher-contact">
-                <input type="number" placeholder="Quantidade de horas" class="teacher-contact-hours">
-                <button type="submit" class="teacher-contact-button">Calcular valor total</button>
+            <form class="teacher-contract">
+                <input name="price" type="hidden" value="120">
+                <input required min="1" max="5" name="hours" type="number" placeholder="Quantidade de horas" class="teacher-contract-hours">
+                <button type="submit" class="teacher-contract-button">Calcular valor total</button>
             </form>
         </section>
     </main>
+    <script src="./static/js/script.js"></script>
 </body>
 </html>
